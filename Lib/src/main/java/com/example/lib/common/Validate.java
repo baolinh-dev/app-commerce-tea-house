@@ -7,7 +7,7 @@ public class Validate {
     public static boolean isValidName(String value, TextView textView) {
         if(value.trim().length() <= 0) {
             textView.setVisibility(View.VISIBLE);
-            textView.setText("Vui lòng nhập tên khách hàng!");
+            textView.setText("Vui lòng nhập tên khách hàng!!!");
             return false;
         }
             textView.setVisibility(View.GONE);
